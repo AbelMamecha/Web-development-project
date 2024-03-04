@@ -1,0 +1,75 @@
+/* reset default styles */
+body, h1, h2, p, ul, li {
+    margin:0;
+    padding:0;
+    text-align:left
+}
+
+image {
+    width : 40%
+}
+
+/* basic styling for body */
+body {
+    font-family:'Times New Roman', serif;
+    background-color: skyblue;
+    color: black;
+    text-align: left;
+}
+
+/*header styles */
+header{
+    background-color:tan;
+    color: white;
+    padding: 10px 0;
+}
+
+/* navigation styles */
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display:inline;
+    margin-right: 25px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+}
+
+/* main section styles */
+section{
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color:white;
+}
+
+/* form styes */
+form{
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+label{
+    display:block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: grey;
+    color:white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
